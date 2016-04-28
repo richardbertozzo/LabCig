@@ -1,0 +1,27 @@
+li.menuLi {
+	border: solid 1px rgb(0,0,0);
+	text-align:center;
+	display:inline-block;
+	margin-top:10px;
+}
+li:hover {
+	font-size:110%;
+	color:blue;
+}
+
+.header {
+	
+}
+
+.container-fluid {
+	background-color:#F4F4EC;
+	
+}
+.diferente {
+	background-color:#809fff;
+}
+
+footer{
+	text-align: center;
+
+}
