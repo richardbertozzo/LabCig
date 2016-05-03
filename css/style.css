@@ -9,7 +9,6 @@ li.menuLi {
 	text-align:center;
 	display:inline-block;
 	padding-top:7px;
-	height: 100%;
 	margin: 0px;
 	color:#809fff;
 }
@@ -35,9 +34,8 @@ div.menuLi {
 footer{
 	text-align: center;
 }
-img.logo {
-	width:99%;
-	margin-top:10px;
+.imagem {
+	width: 16%;
 }
 a 	{
 	color:#352d2d;
