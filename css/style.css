@@ -17,12 +17,13 @@ li.menuLi:hover {
 	font-size:1.3em;
 	color:#F4F4EC;
 	background-color:#809fff;
+	border-radius: 2px;
 }
 ul.menu {
 	height:45px;
 }
 div.menuLi {
-	margin-top:9px;
+	margin-top:30px;
 }
 .container-fluid {
 	background-color:#F4F4EC;
@@ -31,13 +32,14 @@ div.menuLi {
 	background-color:#809fff;
 	font-size: 1.1em;
 	color:#352d2d;
+	border-radius: 3px;
 }
 footer{
 	text-align: center;
 }
 img.logo {
-	width:99%;
-	margin-top:10px;
+	
+	margin-top:5px;
 }
 a 	{
 	color:#352d2d;
