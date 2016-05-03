@@ -9,10 +9,6 @@ li.menuLi {
 	text-align:center;
 	display:inline-block;
 	padding-top:7px;
-<<<<<<< HEAD
-=======
-	height: 100%;
->>>>>>> 25482497087120db7bc10f769c56e93f43b4e351
 	margin: 0px;
 	color:#809fff;
 }
@@ -38,14 +34,8 @@ div.menuLi {
 footer{
 	text-align: center;
 }
-<<<<<<< HEAD
 .imagem {
 	width: 16%;
-=======
-img.logo {
-	width:99%;
-	margin-top:10px;
->>>>>>> 25482497087120db7bc10f769c56e93f43b4e351
 }
 a 	{
 	color:#352d2d;
