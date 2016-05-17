@@ -1,10 +1,29 @@
+html {
+	background-color: #F4F4EC;
+}
+a {
+	text-decoration: none;
+}
+li.menuLi {	
+	font-size:1.4em;
+	text-align:center;
+	display:inline-block;	
+	padding-top:7px;
+	height: 100%;
+	margin: 0px;
+	color:#809fff;
+}
+li.menuLi:hover {
+	font-size:1.4em;
+	color:#F4F4EC;
+	background-color:#809fff;
+}
 ul.menu {
 	height:45px;
 }
-div.menuLi {
-	margin-top:9px;
+.container-fluid {
+	background-color:#F4F4EC;
 }
-
 .diferente {
 	background-color:#809fff;
 	font-size: 1.2em;
@@ -13,12 +32,19 @@ div.menuLi {
 footer{
 	text-align: center;
 }
+img.logo {
+	width:18%;
+	display:inline-block;
+	float:left;
+	margin-left:7%;
+}
 
 .links {
 	color:black;
-	margin-top:10px;
+	/*margin-top:10px;*/
 }
 .list-group-item	{
 	background-color:#809fff;
 	border: none;
+	color:#ccc;
 }

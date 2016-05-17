@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Equipe LabCig</title>
+		<title>Downloads LabCig</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="css/equipe.css">
+		<link rel="stylesheet" type="text/css" href="css/downloads.css">
 	</head>
 	<body>
 	<div class="container-fluid">
@@ -24,38 +24,32 @@
 				</ul>
 			</div>
 		</header>	
-		<div class ="col-md-offset-2 col-md-8 diferente" >
-		<h3>Email dos professores: </h3>
-			<ul class="list-group" id="listaEquipe">
+		<div class="col-md-offset-2 col-md-8 diferente">
+			<div class="links">
+				<ul class = "list-group">
 				<?php
 					require('conecta.php');
 
-					$sql = "SELECT nome,email,link FROM equipe ORDER BY nome";
+					$sql = "SELECT caminho,titulo FROM caminho_relativo ORDER BY titulo";
 					$resultado = mysqli_query($conexao, $sql) or die(mysqli_error($conexao));
 					while($registro = mysqli_fetch_array($resultado)){
-						$nome = $registro[0];
-						$email = $registro[1];
-						$link = $registro[2];
+						$caminho = $registro[0];
+						$titulo = $registro[1];
 						echo "
-							<li class=\"list-group-item\"><span class=\"badge\">$email</span><a href=\"$link\" target=\"blank\">$nome</a></li>";
-					}
-				?>
-			</ul>
+					<li class=\"list-group-item\"><a href=\"$caminho\">$titulo</a></li>";
+					}		
+				?>	
+				</ul>
+			</div>
 		</div>
-
-
-
-
-	<!-- RODAPÉ -->
-	<div class="footer">
-		<footer class="col-md-offset-2 col-md-8">
-		<br>
-			<p>
+		<div class="footer">
+			<footer class="col-md-offset-2 col-md-8">
+			<br>
+				<p>
 				Direitos reservados© 2016 LABCIG | Universidade Federal de Santa Catarina - UFSC
-			</p>
-		</footer>
+				</p>
+			</footer>
+		</div>
 	</div>
-	</div>
-	<!-- FIM RODAPÉ -->
 	</body>
 </html>
